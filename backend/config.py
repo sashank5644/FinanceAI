@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     api_prefix: str = "/api/v1"
     api_host: str = "0.0.0.0"
     api_port: int = 8000
-    cors_origins: List[str] = ["http://localhost", "http://localhost:3000"]
+    cors_origins: List[str] = ["http://localhost", "http://localhost:3000", "https://finance-ai-frontend-sigma.vercel.app"]
     debug: bool = True
     
     # Database settings
